@@ -9,6 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 public class Aviao implements Serializable {
 	private static final long serialVersionUID = 1L;
@@ -23,6 +25,7 @@ public class Aviao implements Serializable {
 
 	private Integer totalDeAssentos;
 
+	@JsonIgnore
 	@OneToMany(mappedBy = "aviao")
 	private List<Voo> voos;
 

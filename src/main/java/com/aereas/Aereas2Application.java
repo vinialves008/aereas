@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AereasApplication {
+public class Aereas2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AereasApplication.class, args);
+		SpringApplication.run(Aereas2Application.class, args);
 	}
 
 }
