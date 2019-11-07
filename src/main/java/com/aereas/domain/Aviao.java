@@ -22,6 +22,8 @@ public class Aviao implements Serializable {
 	private String modelo;
 
 	private String marca;
+	
+	
 
 	private Integer totalDeAssentos;
 

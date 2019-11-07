@@ -1,13 +1,22 @@
 package com.aereas;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Aereas2Application {
+public class AereasApplication implements CommandLineRunner{
 
-	public static void main(String[] args) {
-		SpringApplication.run(Aereas2Application.class, args);
+	
+	
+	public static void main(String[] args){
+		SpringApplication.run(AereasApplication.class, args);
+	}
+	
+	@Override
+	public void run(String... args) throws Exception {
+
+		
 	}
 
 }
